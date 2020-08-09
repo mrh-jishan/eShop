@@ -6,7 +6,6 @@ import Header from '../components/Header';
 import Logo from '../components/Logo';
 import TextInput from '../components/TextInput';
 import { theme } from '../core/theme';
-import { emailValidator, nameValidator, passwordValidator } from '../core/utils';
 
 
 const RegisterScreen = ({ navigation }) => {
@@ -27,7 +26,6 @@ const RegisterScreen = ({ navigation }) => {
 
       <TextInput
         label="Name"
-        returnKeyType="next"
         value={name.value}
         onChangeText={text => setName({ value: text, error: '' })}
         error={!!name.error}
@@ -36,7 +34,6 @@ const RegisterScreen = ({ navigation }) => {
 
       <TextInput
         label="Email"
-        returnKeyType="next"
         value={email.value}
         onChangeText={text => setEmail({ value: text, error: '' })}
         error={!!email.error}
@@ -49,7 +46,6 @@ const RegisterScreen = ({ navigation }) => {
 
       <TextInput
         label="Password"
-        returnKeyType="done"
         value={password.value}
         onChangeText={text => setPassword({ value: text, error: '' })}
         error={!!password.error}
@@ -57,9 +53,8 @@ const RegisterScreen = ({ navigation }) => {
         secureTextEntry
       />
 
-<TextInput
-        label="Password"
-        returnKeyType="done"
+      <TextInput
+        label="Confirm Password"
         value={password.value}
         onChangeText={text => setPassword({ value: text, error: '' })}
         error={!!password.error}
