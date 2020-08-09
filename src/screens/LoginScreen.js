@@ -1,5 +1,6 @@
-import React, { memo, useState } from 'react';
+import React, { useState } from 'react';
 import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { connect } from 'react-redux';
 import BackButton from '../components/BackButton';
 import Background from '../components/Background';
 import Button from '../components/Button';
@@ -7,13 +8,15 @@ import Header from '../components/Header';
 import Logo from '../components/Logo';
 import TextInput from '../components/TextInput';
 import { theme } from '../core/theme';
+import { authInit } from '../redux/actions/authAction';
 
-const LoginScreen = ({ navigation }) => {
+const LoginScreen = ({ navigation, login }) => {
   const [email, setEmail] = useState({ value: '', error: '' });
   const [password, setPassword] = useState({ value: '', error: '' });
 
-  const _onLoginPressed = () => {
-    navigation.navigate('Dashboard');
+  const onLoginPressed = () => {
+    login({ email: email, password: password })
+    // navigation.navigate('Dashboard');
   };
 
   return (
@@ -55,7 +58,7 @@ const LoginScreen = ({ navigation }) => {
         </TouchableOpacity>
       </View>
 
-      <Button mode="contained" onPress={_onLoginPressed}>
+      <Button mode="contained" onPress={onLoginPressed}>
         Login
       </Button>
 
@@ -88,4 +91,14 @@ const styles = StyleSheet.create({
   },
 });
 
-export default memo(LoginScreen);
+
+
+const mapStateToProps = ({ auth }) => ({
+  auth
+});
+
+const mapDispatchToProps = dispatch => ({
+  login: (body) => dispatch(authInit(body)),
+});
+
+export default connect(mapStateToProps, mapDispatchToProps)(LoginScreen);

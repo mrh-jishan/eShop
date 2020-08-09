@@ -82,9 +82,9 @@ const UserTabs = () => {
 
 const Stack = createStackNavigator();
 
-export default function UserStack() {
+export default UserStack = () => {
   return (
-    <Stack.Navigator initialRouteName='Receiver'>
+    <Stack.Navigator initialRouteName='Dashboard'>
       <Stack.Screen name="Dashboard" component={UserTabs} options={{ title: 'Receiver Page', headerLeft: () => { disabled: true }, headerTitleAlign: 'center' }} />
       <Stack.Screen name="Home" component={Dashboard} options={{ title: 'Receiver Verify' }} />
     </Stack.Navigator>
