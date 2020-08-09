@@ -1,32 +1,22 @@
 import React, { memo, useState } from 'react';
 import { StyleSheet, Text, TouchableOpacity } from 'react-native';
-import BackButton from '../components/BackButton';
 import Background from '../components/Background';
 import Button from '../components/Button';
 import Header from '../components/Header';
 import Logo from '../components/Logo';
 import TextInput from '../components/TextInput';
 import { theme } from '../core/theme';
-import { emailValidator } from '../core/utils';
 
 
 const ForgotPasswordScreen = ({ navigation }) => {
   const [email, setEmail] = useState({ value: '', error: '' });
 
-  const _onSendPressed = () => {
-    const emailError = emailValidator(email.value);
-
-    if (emailError) {
-      setEmail({ ...email, error: emailError });
-      return;
-    }
-
+  const onSendPressed = () => {
     navigation.navigate('LoginScreen');
   };
 
   return (
     <Background>
-      <BackButton goBack={() => navigation.navigate('LoginScreen')} />
 
       <Logo />
 
@@ -45,7 +35,7 @@ const ForgotPasswordScreen = ({ navigation }) => {
         keyboardType="email-address"
       />
 
-      <Button mode="contained" onPress={_onSendPressed} style={styles.button}>
+      <Button mode="contained" onPress={onSendPressed} style={styles.button}>
         Send Reset Instructions
       </Button>
 

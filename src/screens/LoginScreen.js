@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import { connect } from 'react-redux';
-import BackButton from '../components/BackButton';
 import Background from '../components/Background';
 import Button from '../components/Button';
 import Header from '../components/Header';
@@ -16,13 +15,11 @@ const LoginScreen = ({ navigation, login }) => {
 
   const onLoginPressed = () => {
     login({ email: email, password: password })
-    // navigation.navigate('Dashboard');
   };
 
   return (
     <Background>
-      <BackButton goBack={() => navigation.navigate('HomeScreen')} />
-
+      
       <Logo />
 
       <Header>Welcome back.</Header>

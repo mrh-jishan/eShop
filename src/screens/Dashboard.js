@@ -13,9 +13,6 @@ const Dashboard = ({ navigation }) => (
       Your amazing app starts here. Open you favourite code editor and start
       editing this project.
     </Paragraph>
-    <Button mode="outlined" onPress={() => navigation.navigate('HomeScreen')}>
-      Logout
-    </Button>
   </Background>
 );
 
