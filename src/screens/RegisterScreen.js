@@ -33,6 +33,39 @@ const RegisterScreen = ({ navigation }) => {
       />
 
       <TextInput
+        label="Last Name"
+        value={name.value}
+        onChangeText={text => setName({ value: text, error: '' })}
+        error={!!name.error}
+        errorText={name.error}
+      />
+
+      <TextInput
+        label="Last Name"
+        value={name.value}
+        onChangeText={text => setName({ value: text, error: '' })}
+        error={!!name.error}
+        errorText={name.error}
+      />
+
+      <TextInput
+        label="Last Name"
+        value={name.value}
+        onChangeText={text => setName({ value: text, error: '' })}
+        error={!!name.error}
+        errorText={name.error}
+      />
+
+
+      <TextInput
+        label="Last Name"
+        value={name.value}
+        onChangeText={text => setName({ value: text, error: '' })}
+        error={!!name.error}
+        errorText={name.error}
+      />
+
+      <TextInput
         label="Email"
         value={email.value}
         onChangeText={text => setEmail({ value: text, error: '' })}

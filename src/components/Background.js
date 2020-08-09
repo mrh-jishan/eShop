@@ -1,5 +1,5 @@
 import React, { memo } from 'react';
-import { ImageBackground, KeyboardAvoidingView, ScrollView, StyleSheet, View } from 'react-native';
+import { ImageBackground, KeyboardAvoidingView, Platform, ScrollView, StyleSheet, View } from 'react-native';
 
 const Background = ({ children }) => (
   <ImageBackground
@@ -7,9 +7,9 @@ const Background = ({ children }) => (
     resizeMode="repeat"
     style={styles.background}>
     <KeyboardAvoidingView
-      behavior="padding"
-      enabled={true}
-      keyboardVerticalOffset={-170}>
+      behavior={Platform.OS == 'ios' ? 'padding' : 'height'}
+      enabled
+      keyboardVerticalOffset={Platform.OS == 'ios' ? 70 : -180}>
       <ScrollView>
         <View style={styles.container}>
           {children}
@@ -26,7 +26,8 @@ const styles = StyleSheet.create({
   },
   container: {
     flex: 1,
-    padding: 20,
+    paddingHorizontal: 10,
+    paddingVertical: 30,
     width: '100%',
     maxWidth: 340,
     alignSelf: 'center',
