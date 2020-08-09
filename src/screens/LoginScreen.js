@@ -92,13 +92,8 @@ const styles = StyleSheet.create({
 });
 
 
-
-const mapStateToProps = ({ auth }) => ({
-  auth
-});
-
 const mapDispatchToProps = dispatch => ({
   login: (body) => dispatch(authInit(body)),
 });
 
-export default connect(mapStateToProps, mapDispatchToProps)(LoginScreen);
+export default connect(null, mapDispatchToProps)(LoginScreen);

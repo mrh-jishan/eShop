@@ -3,6 +3,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import React from 'react';
 import Icon from 'react-native-vector-icons/FontAwesome';
 import { Dashboard } from '../screens';
+import Profile from '../screens/Profile';
 
 const Tab = createBottomTabNavigator();
 
@@ -65,7 +66,7 @@ const UserTabs = () => {
 
       <Tab.Screen
         name="Profile"
-        component={Dashboard}
+        component={Profile}
         options={{
           tabBarLabel: 'Profile',
           tabBarIcon: ({ color }) => (

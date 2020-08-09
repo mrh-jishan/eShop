@@ -15,5 +15,5 @@ export const authError = (error) => ({
 })
 
 export const logout = () => ({
-    type: LOGIN.LOGOUT
+    type: AUTH.LOGOUT
 })
