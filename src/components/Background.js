@@ -1,6 +1,6 @@
 import React, { memo } from 'react';
-import { ImageBackground, KeyboardAvoidingView, StyleSheet } from 'react-native';
-
+import { ImageBackground, StyleSheet } from 'react-native';
+import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view';
 
 const Background = ({ children }) => (
   <ImageBackground
@@ -8,9 +8,9 @@ const Background = ({ children }) => (
     resizeMode="repeat"
     style={styles.background}
   >
-    <KeyboardAvoidingView style={styles.container} behavior="padding">
+    <KeyboardAwareScrollView style={styles.container}>
       {children}
-    </KeyboardAvoidingView>
+    </KeyboardAwareScrollView>
   </ImageBackground>
 );
 
@@ -22,11 +22,6 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 20,
-    width: '100%',
-    maxWidth: 340,
-    alignSelf: 'center',
-    alignItems: 'center',
-    justifyContent: 'center',
   },
 });
 
