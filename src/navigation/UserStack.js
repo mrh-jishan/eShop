@@ -4,6 +4,7 @@ import React from 'react';
 import Icon from 'react-native-vector-icons/FontAwesome';
 import { Dashboard } from '../screens';
 import Profile from '../screens/Profile';
+import { theme } from '../core/theme';
 
 const Tab = createBottomTabNavigator();
 
@@ -12,7 +13,7 @@ const UserTabs = () => {
     <Tab.Navigator
       initialRouteName="ReceiverDashboard"
       tabBarOptions={{
-        activeTintColor: "#008B8B",
+        activeTintColor: theme.colors.primary,
         inactiveTintColor: "#2F4F4F",
         labelStyle: {
           fontSize: 15,
