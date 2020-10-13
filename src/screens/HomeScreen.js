@@ -13,7 +13,8 @@ const HomeScreen = ({ navigation, loginInit, loginSuccess }) => {
 
   useEffect(() => {
     GoogleSignin.configure({
-      scopes: ['https://www.googleapis.com/auth/contacts.readonly',
+      scopes: [
+        'https://www.googleapis.com/auth/contacts.readonly',
         'https://www.googleapis.com/auth/user.birthday.read',
         'https://www.googleapis.com/auth/user.gender.read',
         'https://www.googleapis.com/auth/user.phonenumbers.read'],
@@ -21,8 +22,7 @@ const HomeScreen = ({ navigation, loginInit, loginSuccess }) => {
       offlineAccess: true,
       iosClientId: webClientId
     });
-    console.log('webclientid');
-  }, [webClientId]);
+  }, []);
 
   const [isSigninInProgress, setIsSigninInProgress] = useState(false);
 

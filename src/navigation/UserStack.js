@@ -1,10 +1,13 @@
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { createStackNavigator } from '@react-navigation/stack';
 import React from 'react';
+import { TouchableHighlight } from 'react-native';
+import { IconButton, Searchbar } from 'react-native-paper';
 import Icon from 'react-native-vector-icons/FontAwesome';
+import { theme } from '../core/theme';
 import { Dashboard } from '../screens';
 import Profile from '../screens/Profile';
-import { theme } from '../core/theme';
+import SearchPage from '../screens/SearchScreen';
 
 const Tab = createBottomTabNavigator();
 
@@ -87,8 +90,35 @@ const Stack = createStackNavigator();
 export default UserStack = () => {
   return (
     <Stack.Navigator initialRouteName='Dashboard'>
-      <Stack.Screen name="Dashboard" component={UserTabs} options={{ title: 'Receiver Page', headerLeft: () => { disabled: true }, headerTitleAlign: 'center' }} />
-      <Stack.Screen name="Home" component={Dashboard} options={{ title: 'Receiver Verify' }} />
+      <Stack.Screen name="Dashboard" component={UserTabs}
+        options={({ navigation }) => ({
+          headerStyle: { backgroundColor: theme.colors.primary },
+          headerLeft: () => (
+            <IconButton icon="menu"
+              color={theme.colors.white}
+              size={25}
+              onPress={() => console.log('menu button pressed')} />
+          ),
+          headerTitle: () => {
+            return (
+              <TouchableHighlight onPress={() => navigation.navigate('SearchPage')} >
+                <Searchbar
+                  style={{ borderRadius: 5 }}
+                  editable={false}
+                  placeholder="Search"
+                />
+              </TouchableHighlight>)
+          },
+          headerRight: () => (
+            <IconButton icon="camera"
+              color={theme.colors.white}
+              size={25}
+              onPress={() => console.log('right button pressed')} />
+          ),
+        })}
+      />
+      <Stack.Screen name="SearchPage" component={SearchPage} options={{ headerShown: false }} />
+      <Stack.Screen name="CategoryPage" component={Dashboard} options={{ headerShown: false }} />
     </Stack.Navigator>
   );
 }

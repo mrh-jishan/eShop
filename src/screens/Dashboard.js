@@ -4,15 +4,17 @@ import Header from '../components/Header';
 import Logo from '../components/Logo';
 import Paragraph from '../components/Paragraph';
 
-const Dashboard = ({ navigation }) => (
-  <Background>
-    <Logo />
-    <Header>Let’s start</Header>
-    <Paragraph>
-      Your amazing app starts here. Open you favourite code editor and start
-      editing this project.
+const Dashboard = ({ navigation }) => {
+  return (
+    <Background>
+      <Logo />
+      <Header>Let’s start</Header>
+      <Paragraph>
+        Your amazing app starts here. Open you favourite code editor and start
+        editing this project.
     </Paragraph>
-  </Background>
-);
+    </Background>
+  )
+}
 
 export default memo(Dashboard);
