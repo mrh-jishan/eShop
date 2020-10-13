@@ -1,35 +1,39 @@
-import {
-  GoogleSignin,
-  GoogleSigninButton,
-  statusCodes
-} from '@react-native-community/google-signin';
-import React, { memo, useEffect, useState } from 'react';
-import Background from '../components/Background';
+import { GoogleSignin, GoogleSigninButton, statusCodes } from '@react-native-community/google-signin';
+import React, { useEffect, useState } from 'react';
+import { View } from 'react-native';
+import { connect } from 'react-redux';
 import Header from '../components/Header';
 import Logo from '../components/Logo';
 import Paragraph from '../components/Paragraph';
+import { authInit, authSuccess } from './../redux/actions/authAction';
 
-const HomeScreen = ({ navigation }) => {
+const webClientId = '103375050274-lp2q3th8bmi10nr51kscsktg4svn4jcr.apps.googleusercontent.com'
+
+const HomeScreen = ({ navigation, loginInit, loginSuccess }) => {
 
   useEffect(() => {
     GoogleSignin.configure({
       scopes: ['https://www.googleapis.com/auth/contacts.readonly',
         'https://www.googleapis.com/auth/user.birthday.read',
         'https://www.googleapis.com/auth/user.gender.read',
-        'https://www.googleapis.com/auth/user.phonenumbers.read'], // what API you want to access on behalf of the user, default is email and profile
-      webClientId: '103375050274-lp2q3th8bmi10nr51kscsktg4svn4jcr.apps.googleusercontent.com', // client ID of type WEB for your server (needed to verify user ID and offline access)
-      offlineAccess: true, // if you want to access Google API on behalf of the user FROM YOUR SERVER
-      iosClientId: '103375050274-lp2q3th8bmi10nr51kscsktg4svn4jcr.apps.googleusercontent.com'
+        'https://www.googleapis.com/auth/user.phonenumbers.read'],
+      webClientId: webClientId,
+      offlineAccess: true,
+      iosClientId: webClientId
     });
-  }, []);
+    console.log('webclientid');
+  }, [webClientId]);
+
   const [isSigninInProgress, setIsSigninInProgress] = useState(false);
 
   const _signIn = async () => {
-    setIsSigninInProgress(true)
+    // setIsSigninInProgress(true)
+    loginInit();
     try {
       await GoogleSignin.hasPlayServices();
       const userInfo = await GoogleSignin.signIn();
       console.log('userInfo: ', userInfo);
+      loginSuccess(userInfo)
       // this.setState({ userInfo });
     } catch (error) {
       if (error.code === statusCodes.SIGN_IN_CANCELLED) {
@@ -43,15 +47,20 @@ const HomeScreen = ({ navigation }) => {
       }
       console.log('error: ', error);
     }
-    setIsSigninInProgress(false)
+    // navigation.navigate('RegisterScreen');
   };
 
   return (
-    <Background>
+    <View style={{
+      flex: 1,
+      flexDirection: 'column',
+      justifyContent: 'center',
+      alignItems: 'center',
+    }}>
       <Logo />
       <Header>An alternative E-commerce</Header>
       <Paragraph>
-        The easiest way to start with your amazing application.
+        The easiest way to buy & sell your goods.
     </Paragraph>
 
       <GoogleSigninButton
@@ -60,9 +69,13 @@ const HomeScreen = ({ navigation }) => {
         color={GoogleSigninButton.Color.Dark}
         onPress={_signIn}
         disabled={isSigninInProgress} />
-
-    </Background>
+    </View>
   )
 }
 
-export default memo(HomeScreen);
+const mapDispatchToProps = dispatch => ({
+  loginInit: () => dispatch(authInit()),
+  loginSuccess: (body) => dispatch(authSuccess(body)),
+});
+
+export default connect(null, mapDispatchToProps)(HomeScreen);
