@@ -13,11 +13,9 @@ const Routes = ({ auth }) => {
   );
 }
 
-
 const mapStateToProps = ({ auth }) => ({
   auth
 });
-
 
 export default connect(mapStateToProps, null)(Routes);
 
