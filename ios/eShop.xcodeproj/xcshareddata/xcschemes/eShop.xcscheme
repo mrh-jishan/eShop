@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "MatchmakerPro.app"
-               BlueprintName = "MatchmakerPro"
-               ReferencedContainer = "container:MatchmakerPro.xcodeproj">
+               BuildableName = "eShop.app"
+               BlueprintName = "eShop"
+               ReferencedContainer = "container:eShop.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "MatchmakerProTests.xctest"
-               BlueprintName = "MatchmakerProTests"
-               ReferencedContainer = "container:MatchmakerPro.xcodeproj">
+               BuildableName = "eShopTests.xctest"
+               BlueprintName = "eShopTests"
+               ReferencedContainer = "container:eShop.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "MatchmakerPro.app"
-            BlueprintName = "MatchmakerPro"
-            ReferencedContainer = "container:MatchmakerPro.xcodeproj">
+            BuildableName = "eShop.app"
+            BlueprintName = "eShop"
+            ReferencedContainer = "container:eShop.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "MatchmakerPro.app"
-            BlueprintName = "MatchmakerPro"
-            ReferencedContainer = "container:MatchmakerPro.xcodeproj">
+            BuildableName = "eShop.app"
+            BlueprintName = "eShop"
+            ReferencedContainer = "container:eShop.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* MatchmakerProTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MatchmakerProTests.m */; };
+		00E356F31AD99517003FC87E /* eShopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* eShopTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* MatchmakerProTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MatchmakerProTests.m */; };
-		5D3425478CBA2CF6C9787959 /* libPods-MatchmakerPro-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AF3BEB96E0C1EAC53BF28CB /* libPods-MatchmakerPro-tvOSTests.a */; };
-		6C0278838004AA69329C8693 /* libPods-MatchmakerPro-MatchmakerProTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AF352A23030902657F12C2C /* libPods-MatchmakerPro-MatchmakerProTests.a */; };
-		7509C667D936CF1DD17CBAA2 /* libPods-MatchmakerPro.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAA972E7338E6C799B9DA738 /* libPods-MatchmakerPro.a */; };
+		2DCD954D1E0B4F2C00145EB5 /* eShopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* eShopTests.m */; };
+		5D3425478CBA2CF6C9787959 /* libPods-eShop-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AF3BEB96E0C1EAC53BF28CB /* libPods-eShop-tvOSTests.a */; };
+		6C0278838004AA69329C8693 /* libPods-eShop-eShopTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AF352A23030902657F12C2C /* libPods-eShop-eShopTests.a */; };
+		7509C667D936CF1DD17CBAA2 /* libPods-eShop.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAA972E7338E6C799B9DA738 /* libPods-eShop.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		F5C11A31A6A35B8A1CAA28B4 /* libPods-MatchmakerPro-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C09CF7CA70725BA5122526CA /* libPods-MatchmakerPro-tvOS.a */; };
+		F5C11A31A6A35B8A1CAA28B4 /* libPods-eShop-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C09CF7CA70725BA5122526CA /* libPods-eShop-tvOS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,43 +28,43 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = MatchmakerPro;
+			remoteInfo = eShop;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "MatchmakerPro-tvOS";
+			remoteInfo = "eShop-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* MatchmakerProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatchmakerProTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* eShopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eShopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* MatchmakerProTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatchmakerProTests.m; sourceTree = "<group>"; };
-		081BD8F732B20C30EF7A043D /* Pods-MatchmakerPro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MatchmakerPro.debug.xcconfig"; path = "Target Support Files/Pods-MatchmakerPro/Pods-MatchmakerPro.debug.xcconfig"; sourceTree = "<group>"; };
-		0AF3BEB96E0C1EAC53BF28CB /* libPods-MatchmakerPro-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MatchmakerPro-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07F961A680F5B00A75B9A /* MatchmakerPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MatchmakerPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = MatchmakerPro/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = MatchmakerPro/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = MatchmakerPro/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MatchmakerPro/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MatchmakerPro/main.m; sourceTree = "<group>"; };
-		14EBD68FEDA4481E13CC0A27 /* Pods-MatchmakerPro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MatchmakerPro.release.xcconfig"; path = "Target Support Files/Pods-MatchmakerPro/Pods-MatchmakerPro.release.xcconfig"; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* MatchmakerPro-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MatchmakerPro-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* MatchmakerPro-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MatchmakerPro-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3AF352A23030902657F12C2C /* libPods-MatchmakerPro-MatchmakerProTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MatchmakerPro-MatchmakerProTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		447D45BE57D632FB9287A10A /* Pods-MatchmakerPro-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MatchmakerPro-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-MatchmakerPro-tvOSTests/Pods-MatchmakerPro-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		67A7A098C7CDE50D89B4471D /* Pods-MatchmakerPro-MatchmakerProTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MatchmakerPro-MatchmakerProTests.release.xcconfig"; path = "Target Support Files/Pods-MatchmakerPro-MatchmakerProTests/Pods-MatchmakerPro-MatchmakerProTests.release.xcconfig"; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = MatchmakerPro/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		88F0735FF188A51D587C0D68 /* Pods-MatchmakerPro-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MatchmakerPro-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-MatchmakerPro-tvOS/Pods-MatchmakerPro-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		890D3C25F79C91F4B2DFC9F7 /* Pods-MatchmakerPro-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MatchmakerPro-tvOS.release.xcconfig"; path = "Target Support Files/Pods-MatchmakerPro-tvOS/Pods-MatchmakerPro-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		C09CF7CA70725BA5122526CA /* libPods-MatchmakerPro-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MatchmakerPro-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C8583716DAF1E3B0FFE877BB /* Pods-MatchmakerPro-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MatchmakerPro-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-MatchmakerPro-tvOSTests/Pods-MatchmakerPro-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		CAA972E7338E6C799B9DA738 /* libPods-MatchmakerPro.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MatchmakerPro.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D4324B539E36D015A56CF1C9 /* Pods-MatchmakerPro-MatchmakerProTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MatchmakerPro-MatchmakerProTests.debug.xcconfig"; path = "Target Support Files/Pods-MatchmakerPro-MatchmakerProTests/Pods-MatchmakerPro-MatchmakerProTests.debug.xcconfig"; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* eShopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = eShopTests.m; sourceTree = "<group>"; };
+		081BD8F732B20C30EF7A043D /* Pods-eShop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eShop.debug.xcconfig"; path = "Target Support Files/Pods-eShop/Pods-eShop.debug.xcconfig"; sourceTree = "<group>"; };
+		0AF3BEB96E0C1EAC53BF28CB /* libPods-eShop-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-eShop-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* eShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = eShop/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = eShop/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = eShop/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = eShop/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = eShop/main.m; sourceTree = "<group>"; };
+		14EBD68FEDA4481E13CC0A27 /* Pods-eShop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eShop.release.xcconfig"; path = "Target Support Files/Pods-eShop/Pods-eShop.release.xcconfig"; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* eShop-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "eShop-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* eShop-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "eShop-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AF352A23030902657F12C2C /* libPods-eShop-eShopTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-eShop-eShopTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		447D45BE57D632FB9287A10A /* Pods-eShop-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eShop-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-eShop-tvOSTests/Pods-eShop-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		67A7A098C7CDE50D89B4471D /* Pods-eShop-eShopTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eShop-eShopTests.release.xcconfig"; path = "Target Support Files/Pods-eShop-eShopTests/Pods-eShop-eShopTests.release.xcconfig"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = eShop/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		88F0735FF188A51D587C0D68 /* Pods-eShop-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eShop-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-eShop-tvOS/Pods-eShop-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		890D3C25F79C91F4B2DFC9F7 /* Pods-eShop-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eShop-tvOS.release.xcconfig"; path = "Target Support Files/Pods-eShop-tvOS/Pods-eShop-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		C09CF7CA70725BA5122526CA /* libPods-eShop-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-eShop-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8583716DAF1E3B0FFE877BB /* Pods-eShop-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eShop-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-eShop-tvOSTests/Pods-eShop-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CAA972E7338E6C799B9DA738 /* libPods-eShop.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-eShop.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4324B539E36D015A56CF1C9 /* Pods-eShop-eShopTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eShop-eShopTests.debug.xcconfig"; path = "Target Support Files/Pods-eShop-eShopTests/Pods-eShop-eShopTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C0278838004AA69329C8693 /* libPods-MatchmakerPro-MatchmakerProTests.a in Frameworks */,
+				6C0278838004AA69329C8693 /* libPods-eShop-eShopTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7509C667D936CF1DD17CBAA2 /* libPods-MatchmakerPro.a in Frameworks */,
+				7509C667D936CF1DD17CBAA2 /* libPods-eShop.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5C11A31A6A35B8A1CAA28B4 /* libPods-MatchmakerPro-tvOS.a in Frameworks */,
+				F5C11A31A6A35B8A1CAA28B4 /* libPods-eShop-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,20 +98,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D3425478CBA2CF6C9787959 /* libPods-MatchmakerPro-tvOSTests.a in Frameworks */,
+				5D3425478CBA2CF6C9787959 /* libPods-eShop-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* MatchmakerProTests */ = {
+		00E356EF1AD99517003FC87E /* eShopTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* MatchmakerProTests.m */,
+				00E356F21AD99517003FC87E /* eShopTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = MatchmakerProTests;
+			path = eShopTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -122,7 +122,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* MatchmakerPro */ = {
+		13B07FAE1A68108700A75B9A /* eShop */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -133,7 +133,7 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = MatchmakerPro;
+			name = eShop;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -141,10 +141,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				CAA972E7338E6C799B9DA738 /* libPods-MatchmakerPro.a */,
-				3AF352A23030902657F12C2C /* libPods-MatchmakerPro-MatchmakerProTests.a */,
-				C09CF7CA70725BA5122526CA /* libPods-MatchmakerPro-tvOS.a */,
-				0AF3BEB96E0C1EAC53BF28CB /* libPods-MatchmakerPro-tvOSTests.a */,
+				CAA972E7338E6C799B9DA738 /* libPods-eShop.a */,
+				3AF352A23030902657F12C2C /* libPods-eShop-eShopTests.a */,
+				C09CF7CA70725BA5122526CA /* libPods-eShop-tvOS.a */,
+				0AF3BEB96E0C1EAC53BF28CB /* libPods-eShop-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -159,9 +159,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* MatchmakerPro */,
+				13B07FAE1A68108700A75B9A /* eShop */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* MatchmakerProTests */,
+				00E356EF1AD99517003FC87E /* eShopTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				C6ADABD7CCC177531D068B8E /* Pods */,
@@ -174,10 +174,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* MatchmakerPro.app */,
-				00E356EE1AD99517003FC87E /* MatchmakerProTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* MatchmakerPro-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* MatchmakerPro-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* eShop.app */,
+				00E356EE1AD99517003FC87E /* eShopTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* eShop-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* eShop-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -185,14 +185,14 @@
 		C6ADABD7CCC177531D068B8E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				081BD8F732B20C30EF7A043D /* Pods-MatchmakerPro.debug.xcconfig */,
-				14EBD68FEDA4481E13CC0A27 /* Pods-MatchmakerPro.release.xcconfig */,
-				D4324B539E36D015A56CF1C9 /* Pods-MatchmakerPro-MatchmakerProTests.debug.xcconfig */,
-				67A7A098C7CDE50D89B4471D /* Pods-MatchmakerPro-MatchmakerProTests.release.xcconfig */,
-				88F0735FF188A51D587C0D68 /* Pods-MatchmakerPro-tvOS.debug.xcconfig */,
-				890D3C25F79C91F4B2DFC9F7 /* Pods-MatchmakerPro-tvOS.release.xcconfig */,
-				C8583716DAF1E3B0FFE877BB /* Pods-MatchmakerPro-tvOSTests.debug.xcconfig */,
-				447D45BE57D632FB9287A10A /* Pods-MatchmakerPro-tvOSTests.release.xcconfig */,
+				081BD8F732B20C30EF7A043D /* Pods-eShop.debug.xcconfig */,
+				14EBD68FEDA4481E13CC0A27 /* Pods-eShop.release.xcconfig */,
+				D4324B539E36D015A56CF1C9 /* Pods-eShop-eShopTests.debug.xcconfig */,
+				67A7A098C7CDE50D89B4471D /* Pods-eShop-eShopTests.release.xcconfig */,
+				88F0735FF188A51D587C0D68 /* Pods-eShop-tvOS.debug.xcconfig */,
+				890D3C25F79C91F4B2DFC9F7 /* Pods-eShop-tvOS.release.xcconfig */,
+				C8583716DAF1E3B0FFE877BB /* Pods-eShop-tvOSTests.debug.xcconfig */,
+				447D45BE57D632FB9287A10A /* Pods-eShop-tvOSTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -201,9 +201,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* MatchmakerProTests */ = {
+		00E356ED1AD99517003FC87E /* eShopTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "MatchmakerProTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "eShopTests" */;
 			buildPhases = (
 				BA36D4D85FFE312C94FF535C /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -216,14 +216,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = MatchmakerProTests;
-			productName = MatchmakerProTests;
-			productReference = 00E356EE1AD99517003FC87E /* MatchmakerProTests.xctest */;
+			name = eShopTests;
+			productName = eShopTests;
+			productReference = 00E356EE1AD99517003FC87E /* eShopTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* MatchmakerPro */ = {
+		13B07F861A680F5B00A75B9A /* eShop */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MatchmakerPro" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "eShop" */;
 			buildPhases = (
 				9F66FB7DAEF60741E8EC57F9 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -237,14 +237,14 @@
 			);
 			dependencies = (
 			);
-			name = MatchmakerPro;
-			productName = MatchmakerPro;
-			productReference = 13B07F961A680F5B00A75B9A /* MatchmakerPro.app */;
+			name = eShop;
+			productName = eShop;
+			productReference = 13B07F961A680F5B00A75B9A /* eShop.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* MatchmakerPro-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* eShop-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "MatchmakerPro-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "eShop-tvOS" */;
 			buildPhases = (
 				F8EF1C65003A67A3AEFB27C2 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
@@ -257,14 +257,14 @@
 			);
 			dependencies = (
 			);
-			name = "MatchmakerPro-tvOS";
-			productName = "MatchmakerPro-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* MatchmakerPro-tvOS.app */;
+			name = "eShop-tvOS";
+			productName = "eShop-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* eShop-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* MatchmakerPro-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* eShop-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "MatchmakerPro-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "eShop-tvOSTests" */;
 			buildPhases = (
 				D18F7C7D994400A74CCB9355 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
@@ -276,9 +276,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "MatchmakerPro-tvOSTests";
-			productName = "MatchmakerPro-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* MatchmakerPro-tvOSTests.xctest */;
+			name = "eShop-tvOSTests";
+			productName = "eShop-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* eShop-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -307,7 +307,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "MatchmakerPro" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "eShop" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -320,10 +320,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* MatchmakerPro */,
-				00E356ED1AD99517003FC87E /* MatchmakerProTests */,
-				2D02E47A1E0B4A5D006451C7 /* MatchmakerPro-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* MatchmakerPro-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* eShop */,
+				00E356ED1AD99517003FC87E /* eShopTests */,
+				2D02E47A1E0B4A5D006451C7 /* eShop-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* eShop-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -397,7 +397,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MatchmakerPro-MatchmakerProTests/Pods-MatchmakerPro-MatchmakerProTests-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-eShop-eShopTests/Pods-eShop-eShopTests-resources.sh",
 				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
@@ -440,7 +440,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MatchmakerPro-MatchmakerProTests/Pods-MatchmakerPro-MatchmakerProTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-eShop-eShopTests/Pods-eShop-eShopTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8AF9D193A6C9504AE2591292 /* [CP] Copy Pods Resources */ = {
@@ -449,7 +449,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MatchmakerPro/Pods-MatchmakerPro-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-eShop/Pods-eShop-resources.sh",
 				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
@@ -492,7 +492,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MatchmakerPro/Pods-MatchmakerPro-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-eShop/Pods-eShop-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9F66FB7DAEF60741E8EC57F9 /* [CP] Check Pods Manifest.lock */ = {
@@ -510,7 +510,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MatchmakerPro-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-eShop-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -532,7 +532,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MatchmakerPro-MatchmakerProTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-eShop-eShopTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -554,7 +554,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MatchmakerPro-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-eShop-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -576,7 +576,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MatchmakerPro-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-eShop-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -628,7 +628,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* MatchmakerProTests.m in Sources */,
+				00E356F31AD99517003FC87E /* eShopTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -654,7 +654,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* MatchmakerProTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* eShopTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -663,12 +663,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* MatchmakerPro */;
+			target = 13B07F861A680F5B00A75B9A /* eShop */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* MatchmakerPro-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* eShop-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -676,14 +676,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D4324B539E36D015A56CF1C9 /* Pods-MatchmakerPro-MatchmakerProTests.debug.xcconfig */;
+			baseConfigurationReference = D4324B539E36D015A56CF1C9 /* Pods-eShop-eShopTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = MatchmakerProTests/Info.plist;
+				INFOPLIST_FILE = eShopTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -693,17 +693,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MatchmakerPro.app/MatchmakerPro";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eShop.app/eShop";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 67A7A098C7CDE50D89B4471D /* Pods-MatchmakerPro-MatchmakerProTests.release.xcconfig */;
+			baseConfigurationReference = 67A7A098C7CDE50D89B4471D /* Pods-eShop-eShopTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = MatchmakerProTests/Info.plist;
+				INFOPLIST_FILE = eShopTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -713,19 +713,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MatchmakerPro.app/MatchmakerPro";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eShop.app/eShop";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 081BD8F732B20C30EF7A043D /* Pods-MatchmakerPro.debug.xcconfig */;
+			baseConfigurationReference = 081BD8F732B20C30EF7A043D /* Pods-eShop.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = MatchmakerPro/Info.plist;
+				INFOPLIST_FILE = eShop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -733,7 +733,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = MatchmakerPro;
+				PRODUCT_NAME = eShop;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -742,12 +742,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 14EBD68FEDA4481E13CC0A27 /* Pods-MatchmakerPro.release.xcconfig */;
+			baseConfigurationReference = 14EBD68FEDA4481E13CC0A27 /* Pods-eShop.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = MatchmakerPro/Info.plist;
+				INFOPLIST_FILE = eShop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -755,7 +755,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = MatchmakerPro;
+				PRODUCT_NAME = eShop;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -763,7 +763,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 88F0735FF188A51D587C0D68 /* Pods-MatchmakerPro-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 88F0735FF188A51D587C0D68 /* Pods-eShop-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -774,14 +774,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "MatchmakerPro-tvOS/Info.plist";
+				INFOPLIST_FILE = "eShop-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.MatchmakerPro-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.eShop-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -791,7 +791,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 890D3C25F79C91F4B2DFC9F7 /* Pods-MatchmakerPro-tvOS.release.xcconfig */;
+			baseConfigurationReference = 890D3C25F79C91F4B2DFC9F7 /* Pods-eShop-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -802,14 +802,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "MatchmakerPro-tvOS/Info.plist";
+				INFOPLIST_FILE = "eShop-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.MatchmakerPro-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.eShop-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -819,7 +819,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C8583716DAF1E3B0FFE877BB /* Pods-MatchmakerPro-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = C8583716DAF1E3B0FFE877BB /* Pods-eShop-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -829,24 +829,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "MatchmakerPro-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "eShop-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.MatchmakerPro-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.eShop-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MatchmakerPro-tvOS.app/MatchmakerPro-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eShop-tvOS.app/eShop-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 447D45BE57D632FB9287A10A /* Pods-MatchmakerPro-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 447D45BE57D632FB9287A10A /* Pods-eShop-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -856,17 +856,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "MatchmakerPro-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "eShop-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.MatchmakerPro-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.eShop-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MatchmakerPro-tvOS.app/MatchmakerPro-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eShop-tvOS.app/eShop-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -987,7 +987,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "MatchmakerProTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "eShopTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -996,7 +996,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MatchmakerPro" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "eShop" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -1005,7 +1005,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "MatchmakerPro-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "eShop-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -1014,7 +1014,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "MatchmakerPro-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "eShop-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -1023,7 +1023,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "MatchmakerPro" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "eShop" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

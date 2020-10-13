@@ -16,6 +16,7 @@ const HomeScreen = ({ navigation }) => {
       scopes: ['https://www.googleapis.com/auth/drive.readonly'], // what API you want to access on behalf of the user, default is email and profile
       webClientId: '103375050274-lp2q3th8bmi10nr51kscsktg4svn4jcr.apps.googleusercontent.com', // client ID of type WEB for your server (needed to verify user ID and offline access)
       offlineAccess: true, // if you want to access Google API on behalf of the user FROM YOUR SERVER
+      iosClientId: '103375050274-lp2q3th8bmi10nr51kscsktg4svn4jcr.apps.googleusercontent.com'
     });
     console.log('run effect');
   }, []);

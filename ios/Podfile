@@ -3,12 +3,12 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 
 platform :ios, '10.0'
 
-target 'MatchmakerPro' do
+target 'eShop' do
   config = use_native_modules!
 
   use_react_native!(:path => config["reactNativePath"])
 
-  target 'MatchmakerProTests' do
+  target 'eShopTests' do
     inherit! :complete
     # Pods for testing
   end
@@ -23,10 +23,10 @@ target 'MatchmakerPro' do
   end
 end
 
-target 'MatchmakerPro-tvOS' do
-  # Pods for MatchmakerPro-tvOS
+target 'eShop-tvOS' do
+  # Pods for eShop-tvOS
 
-  target 'MatchmakerPro-tvOSTests' do
+  target 'eShop-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end
